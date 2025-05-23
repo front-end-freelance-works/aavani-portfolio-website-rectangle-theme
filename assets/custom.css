@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'quicksand';
+    src: url('./Quicksand/static/Quicksand-Regular.ttf');
+}
+@font-face {
+    font-family: 'quicksand-medium';
+    src: url('./Quicksand/static/Quicksand-Medium.ttf');
+}
+@font-face {
+    font-family: 'quicksand-semibold';
+    src: url('./Quicksand/static/Quicksand-SemiBold.ttf');
+}
+@font-face {
+    font-family: 'quicksand-bold';
+    src: url('./Quicksand/static/Quicksand-Bold.ttf');
+}
+.font-quicksand-medium {
+    font-family: 'quicksand-medium', sans-serif;
+}
+.font-quicksand-semibold {
+    font-family: 'quicksand-semibold', sans-serif;
+}
+.font-quicksand-bold {
+    font-family: 'quicksand-bold', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'quicksand', sans-serif;
+    background-color: var(--light);
+    color: var(--dark);
+    overflow-x: hidden;
+    line-height: 1.5;
+    font-size: 15px;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* landing page work categories thumbnails */
+.design-projects-thumb{
+    background-image: url('./images/works-thumnails/designs/sandie-clarke-0JPMHlHKos0-unsplash.jpg');                                                                                                                    
+}
+.illustrations-thumb{
+    background-image: url('./images/works-thumnails/illustrations/syarafina-idris-dCeWUxnIYaM-unsplash.jpg');                                                                                                                    
+}
+.ceramics-thumb{
+    background-image: url('./images/works-thumnails/ceramics/vladimir-gladkov-NPPIq1XFdck-unsplash.jpg');                                                                                                                    
+}
+.animations-thumb{
+    background-image: url('./images/works-thumnails/animation/allison-saeng-KDnxK1V0bNw-unsplash.jpg');                                                                                                                    
+}
+
+.work-heading-top-5{
+    top:5.2735rem;
+    top:5.255rem;
+    top:5rem;
+}
+
+@media (min-width:992px) {
+  .min-h-lg-50v{
+    min-height: 50vh;
+  }
+}
