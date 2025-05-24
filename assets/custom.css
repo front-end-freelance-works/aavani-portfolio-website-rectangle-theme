@@ -23,12 +23,48 @@
 .font-quicksand-bold {
     font-family: 'quicksand-bold', sans-serif;
 }
+@font-face {
+    font-family: 'kanit-regular';
+    src: url('./Kanit/Kanit-Regular.ttf');
+}
+@font-face {
+    font-family: 'kanit-medium';
+    src: url('./Kanit/Kanit-Medium.ttf');
+}
+@font-face {
+    font-family: 'kanit-semibold';
+    src: url('./Kanit/Kanit-SemiBold.ttf');
+}
+@font-face {
+    font-family: 'kanit-bold';
+    src: url('./Kanit/Kanit-Bold.ttf');
+}
+@font-face {
+    font-family: 'kanit-light';
+    src: url('./Kanit/Kanit-Light.ttf');
+}
+.font-kanit-bold {
+    font-family: 'kanit-bold', sans-serif;
+}
+.font-kanit-medium {
+    font-family: 'kanit-medium', sans-serif;
+}
+.font-kanit-semibold {
+    font-family: 'kanit-semibold', sans-serif;
+}
+.font-kanit-regular {
+    font-family: 'kanit-regular', sans-serif;
+}
+.font-kanit-light {
+    font-family: 'kanit-light', sans-serif;
+}
+
 html {
     scroll-behavior: smooth;
 }
 
 body {
-    font-family: 'quicksand', sans-serif;
+    font-family: 'kanit-light', sans-serif;
     background-color: var(--light);
     color: var(--dark);
     overflow-x: hidden;
@@ -65,4 +101,14 @@ body {
   .min-h-lg-50v{
     min-height: 50vh;
   }
+}
+.top-cover-img{
+    background-image: url('./images/cover-img-1.jpg');
+    background-size: cover;
+    background-position: top;
+    height: 40vh;
+}
+.footer-bg{
+    background-image: url('./images/cover-img-2.jpeg');
+    background-size: cover;
 }
