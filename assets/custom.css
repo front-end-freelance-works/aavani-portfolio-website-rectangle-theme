@@ -112,3 +112,10 @@ body {
     background-image: url('./images/cover-img-2.jpeg');
     background-size: cover;
 }
+/* transition */
+.fade-enter-from, .fade-leave-to {
+  opacity: 0;
+}
+.fade-enter-active, .fade-leave-active {
+  transition: opacity 0.5s ease-in-out;
+}

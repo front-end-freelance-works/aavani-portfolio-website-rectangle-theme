@@ -1,0 +1,17 @@
+{
+    "directoryPath": "../../assets/works/illustrations/",
+    "items": [
+        {
+            "id": "1",
+            "title": "Illustration Works Details",
+            "description": "A collection of detailed illustrations showcasing various themes and styles.",
+            "image": "img-1.jpg"
+        },
+        {
+            "id": "2",
+            "title": "Illustration Works Details",
+            "description": "A collection of detailed illustrations showcasing various themes and styles.",
+            "image": "img-2.jpg"
+        }
+    ]
+}
