@@ -90,6 +90,30 @@ body {
 .animations-thumb{
     background-image: url('./images/works-thumnails/animation/allison-saeng-KDnxK1V0bNw-unsplash.jpg');                                                                                                                    
 }
+.belongings-thumb{
+    background-image: url('./works/illustrations/Belongings/img-1.jpg');                                                                                                                    
+}
+.concepts-thumb{
+    background-image: url('./works/illustrations/concepts/IMG-1.jpeg');                                                                                                                    
+}
+.dysfunctional-family-thumb{
+    background-image: url('./works/illustrations/Dysfunctional-Family/IMG_3466.jpeg');                                                                                                                    
+}
+.eyes-thumb{
+    background-image: url('./works/illustrations/eyes/IMG_1954.JPG');                                                                                                                    
+}
+.hanging-objects-thumb{
+    background-image: url('./works/illustrations/Hanging-Objects/Untitled-Artwork\ 3\ \(3\).jpg');                                                                                                                    
+}
+.just-before-ppd-thumb{
+    background-image: url('./works/illustrations/Just-before-PPD/Untitled_Artwork.jpeg');                                                                                                                    
+}
+.nja-tantrums-to-trauma-thumb{
+    background-image: url('./works/illustrations/Nja-Tantrums-to-Trauma/IMG_1966.JPG');                                                                                                                    
+}
+.studies-thumb{
+    background-image: url('./works/illustrations/Studies/IMG_0039.JPG');                                                                                                                    
+}
 
 .work-heading-top-5{
     top:5.2735rem;
