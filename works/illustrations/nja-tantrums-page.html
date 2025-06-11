@@ -16,54 +16,29 @@
   <header class="text-center py-6 fixed sticky top-0 bg-white z-10 border-b">
     <h1 class="text-2xl font-kanit-semibold text-blue-600">AVANI K L</h1>
   </header>
-  <div class="max-w-7xl mx-auto pb-12 relative px-4" id="illustrationsWorksPage">
+  <div class="max-w-7xl mx-auto pb-12 relative px-4" id="njaTantrumtoTraumaWorksPage">
     <h1
       class="text-2xl text-center font-kanit-semibold fixed sticky bg-white work-heading-top-5 border-t pb-4 pt-3 z-10 work-heading transition-all">
-      Illustrations</h1>
+      Illustrations - Nja- Tantrums to Traumas</h1>
     <!-- Illustration sub categories Grid -->
-    <section id="worksSection"
-      class="max-w-6xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-4 gap-6 mb-12 text-center font-bold uppercase text-sm">
-      <div>
-        <a href="./belongings-page.html"
-          class="bg-gray-300 h-48 flex items-center justify-center text-white text-xs uppercase bg-cover bg-center belongings-thumb">Belongings</a>
-        <div class="mt-3 font-kanit-light">Belongings</div>
-      </div>
-      <div>
-        <a href="./concepts-page.html"
-          class="bg-gray-300 h-48 flex items-center justify-center text-white text-xs uppercase bg-cover bg-center concepts-thumb">concepts</a>
-        <div class="mt-3 font-kanit-light">concepts</div>
-      </div>
-      <div>
-        <a href="./dysfunctional-family-page.html" class="bg-gray-300 h-48 flex items-center justify-center text-white text-xs uppercase bg-cover bg-center dysfunctional-family-thumb">Dysfunctional Family</a>
-        <div class="mt-3 font-kanit-light">Dysfunctional Family</div>
-      </div>
-      <div>
-        <a href="./eyes-page.html"
-          class="bg-gray-300 h-48 flex items-center justify-center text-white text-xs uppercase bg-cover bg-center eyes-thumb">eyes</a>
-        <div class="mt-3 font-kanit-light">eyes</div>
-      </div>
-      <div>
-        <a href="./hanging-objects-page.html"
-          class="bg-gray-300 h-48 flex items-center justify-center text-white text-xs uppercase bg-cover bg-center hanging-objects-thumb">Hanging Objects</a>
-        <div class="mt-3 font-kanit-light">Hanging Objects</div>
-      </div>
-      <div>
-        <a href="./just-before-ppd-page.html"
-          class="bg-gray-300 h-48 flex items-center justify-center text-white text-xs uppercase bg-cover bg-center just-before-ppd-thumb">Just before PPD</a>
-        <div class="mt-3 font-kanit-light">Just before PPD</div>
-      </div>
-      <div>
-        <a href="./nja-tantrums-page.html"
-          class="bg-gray-300 h-48 flex items-center justify-center text-white text-xs uppercase bg-cover bg-center nja-tantrums-to-trauma-thumb">Nja- Tantrums to Trauma</a>
-        <div class="mt-3 font-kanit-light">Nja- Tantrums to Traumas</div>
-      </div>
-      <div>
-        <a href="./studies-page.html"
-          class="bg-gray-300 h-48 flex items-center justify-center text-white text-xs uppercase bg-cover bg-center studies-thumb">Studies</a>
-        <div class="mt-3 font-kanit-light">Studies</div>
-      </div>
+    <transition name="fade">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="portraitsWorksTab" key="belongings">
+        <div class="swiper-slide col-lg-3 col-md-6" v-for="(item,i) in njaTantrumtoTraumaCategItems" :key="i">
+          <div class="overflow-hidden">
+            <img loading="lazy" :src="njaTantrumtoTraumaCategPath + item.image" alt="Illustration 2"
+              class="w-full object-cover">
+            <div class="p-4">
+              <h3 class="font-bold text-md mb-0 font-kanit">Urban
+                Jungle</h3>
+              <p class="text-gray-600 mt-0 text-md">Digital,
+                2023</p>
+            </div>
+          </div>
+        </div>
 
-    </section>
+
+      </div>
+    </transition>
   </div>
   <!-- <script src="./assets/works-all-pages.js"></script> -->
   <!-- Footer with Social Icons -->

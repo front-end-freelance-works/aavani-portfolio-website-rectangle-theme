@@ -4,6 +4,9 @@ import conceptsCateg from '../data-cms/illustrations/conceptsCategData.js'
 import dysfunctionalFamilyCateg from '../data-cms/illustrations/dysfunctionalFamilyCategData.js'
 import eyesCateg from '../data-cms/illustrations/eyesCategData.js'
 import hangingObjectsCateg from '../data-cms/illustrations/hangingObjectsCategData.js'
+import justBeforePpdCateg from '../data-cms/illustrations/justBeforePpdCategData.js'
+import njaTantrumtoTraumaCateg from '../data-cms/illustrations/njaTantrumsCategData.js'
+import studiesCateg from '../data-cms/illustrations/studiesCategData.js'
 // BELONGINGS 
 createApp({
     belongingsCategPath: belongingsCateg.directoryPath,
@@ -32,3 +35,13 @@ createApp({
     hangingObjectsCategPath: hangingObjectsCateg.directoryPath,
     hangingObjectsCategItems: hangingObjectsCateg.items,
   }).mount('#hangingObjectsWorksPage')
+  // njaTantrumtoTrauma categ page
+  createApp({
+    njaTantrumtoTraumaCategPath: njaTantrumtoTraumaCateg.directoryPath,
+    njaTantrumtoTraumaCategItems: njaTantrumtoTraumaCateg.items,
+  }).mount('#njaTantrumtoTraumaWorksPage')
+  // studies categ page
+  createApp({
+    studiesCategPath: studiesCateg.directoryPath,
+    studiesCategItems: studiesCateg.items,
+  }).mount('#studiesWorksPage')
