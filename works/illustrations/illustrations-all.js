@@ -45,3 +45,8 @@ createApp({
     studiesCategPath: studiesCateg.directoryPath,
     studiesCategItems: studiesCateg.items,
   }).mount('#studiesWorksPage')
+  // just befor ppd
+  createApp({
+    justBeforePpdCategPath: justBeforePpdCateg.directoryPath,
+    justBeforePpdCategItems: justBeforePpdCateg.items,
+  }).mount('#justBeforePpdWorksPage')

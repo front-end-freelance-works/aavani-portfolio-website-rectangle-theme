@@ -1,0 +1,10 @@
+assets
+ -works
+  --category vise images
+  
+works
+  -data-cms
+    --categdata images ( stored as js files)
+  -category
+    --main listing page
+    --sub pages
