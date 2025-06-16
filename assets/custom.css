@@ -114,7 +114,18 @@ body {
 .studies-thumb{
     background-image: url('./works/illustrations/Studies/IMG_0039.JPG');                                                                                                                    
 }
-
+.ceramics-concepts-thumb{
+    background-image: url('./works/Ceramics-and-Glass/concepts/34.jpg');                                                                                                                    
+}
+.ceramics-flame-work-thumb{
+    background-image: url('./works/Ceramics-and-Glass/Flame-work/06.jpg');                                                                                                                    
+}
+.glass-blowing-thumb{
+        background-image: url('./works/Ceramics-and-Glass/Glass-Blowing/04.jpg');                                                                                                                    
+}
+.pottery-thumb{
+        background-image: url('./works/Ceramics-and-Glass/pottery/3.jpg');                                                                                                                    
+}
 .work-heading-top-5{
     top:5.2735rem;
     top:5.255rem;
