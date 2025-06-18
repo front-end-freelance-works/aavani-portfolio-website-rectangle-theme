@@ -1,6 +1,6 @@
 const directoryPath = "../../assets/works/Ceramics-and-Glass/";
 const ceramicsflameWorksCateg = {
-    directoryPath: directoryPath + "Flame-Work/",
+    directoryPath: directoryPath + "Flame-work/",
     items: [
         {
             id: "1",
